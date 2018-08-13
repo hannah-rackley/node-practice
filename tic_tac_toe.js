@@ -15,8 +15,8 @@ var ticTacToe = function ticTacToe(board) {
     return winner;
 };
 
-console.log(ticTacToe([['O', 'O', 'O'], ['X', null, 'X'], [null, 'X', null]]));
-console.log(ticTacToe([['O', 'X', 'O'], ['O', 'X', null], [null, 'X', null]]));
-console.log(ticTacToe([['O', 'X', 'O'], ['O', 'O', null], [null, 'X', 'X']]));
+// console.log(ticTacToe([['O', 'O', 'O'], ['X', null, 'X'], [null, 'X', null]]));
+// console.log(ticTacToe([['O', 'X', 'O'], ['O', 'X', null], [null, 'X', null]]));
+// console.log(ticTacToe([['O', 'X', 'O'], ['O', 'O', null], [null, 'X', 'X']]));
 
 exports.ticTacToe = ticTacToe;

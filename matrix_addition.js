@@ -20,6 +20,6 @@ var matrixAdd = function matrixAdd(matrix1, matrix2) {
     return r;
 };
 
-console.log(matrixAdd([[1, 3], [2, 4]], [[5, 2], [1, 0]]));
+//console.log(matrixAdd([[1, 3], [2, 4]], [[5, 2], [1, 0]]));
 
 exports.matrixAdd = matrixAdd;

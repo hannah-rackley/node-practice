@@ -14,6 +14,6 @@ var printBox = function (width, height) {
     };
 };
 
-printBox(10, 5);
+// printBox(10, 5);
 
 exports.printBox = printBox;

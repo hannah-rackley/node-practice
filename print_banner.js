@@ -13,6 +13,6 @@ var printBanner = function (text) {
     };
 };
 
-printBanner('Welcome to DigitalCrafts!');
+// printBanner('Welcome to DigitalCrafts!');
 
 exports.printBanner = printBanner;

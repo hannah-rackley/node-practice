@@ -20,6 +20,6 @@ var longLongVowels = function longLongVowels(string) {
     return newString;
 }
 
-console.log(longLongVowels("Goodbye"));
+//console.log(longLongVowels("Goodbye"));
 
 exports.longLongVowels = longLongVowels;

@@ -7,7 +7,7 @@ var sumNumbers = function sumNumbers(numbers) {
     return sum;
 }
 
-console.log(sumNumbers([2, 5, 6]));
-console.log(sumNumbers([-2, 0, 4, 6, 10]));
+//console.log(sumNumbers([2, 5, 6]));
+//console.log(sumNumbers([-2, 0, 4, 6, 10]));
 
 exports.sumNumbers = sumNumbers;

@@ -9,6 +9,6 @@ var factors = function (num) {
     return factors;
 }
 
-console.log(factors(10));
+// console.log(factors(10));
 
 exports.factors = factors;

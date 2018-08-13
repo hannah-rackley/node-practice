@@ -8,7 +8,7 @@ var positiveNumbers = function positiveNumbers(numbers) {
     }
     return positives;
 }
-console.log(positiveNumbers([2, 5, 6]));
-console.log(positiveNumbers([-2, 0, 4, 6, 10]));
+//console.log(positiveNumbers([2, 5, 6]));
+//console.log(positiveNumbers([-2, 0, 4, 6, 10]));
 
 exports.positiveNumbers = positiveNumbers;

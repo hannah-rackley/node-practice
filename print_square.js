@@ -5,6 +5,6 @@ var printSquare = function (size) {
         console.log(row);
     };
 };
-printSquare(3);
+// printSquare(3);
 
 exports.printSquare = printSquare;

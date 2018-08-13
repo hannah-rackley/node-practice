@@ -16,6 +16,6 @@ var leetspeak = function (string) {
     return newString;
 
 }
-console.log(leetspeak("HeLLo ThErE"));
+//console.log(leetspeak("HeLLo ThErE"));
 
 exports.leetspeak = leetspeak;

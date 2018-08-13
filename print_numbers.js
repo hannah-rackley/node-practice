@@ -5,6 +5,6 @@ var printNumbers = function (startNumber, endNumber) {
     };
 };
 
-printNumbers(1, 10);
+// printNumbers(1, 10);
 
 exports.printNumbers = printNumbers;
