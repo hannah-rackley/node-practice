@@ -14,3 +14,5 @@ var printBanner = function (text) {
 };
 
 printBanner('Welcome to DigitalCrafts!');
+
+exports.printBanner = printBanner;

@@ -6,3 +6,5 @@ var printSquare = function (size) {
     };
 };
 printSquare(3);
+
+exports.printSquare = printSquare;

@@ -21,3 +21,5 @@ var longLongVowels = function longLongVowels(string) {
 }
 
 console.log(longLongVowels("Goodbye"));
+
+exports.longLongVowels = longLongVowels;

@@ -33,3 +33,5 @@ var decipher = function (str, offset) {
     return finalString;
 }
 console.log(decipher('Travhf jvgubhg rqhpngvba vf yvxr fvyire va gur zvar', 13));
+
+exports.decipher = decipher;

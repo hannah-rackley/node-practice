@@ -14,3 +14,5 @@ var matrixMultiply = function matrixMultiply(matrix1, matrix2) {
 };
 
 console.log(matrixMultiply([[2, 4], [3, 4]], [[5, 2], [3, 1]]));
+
+exports.matrixMultiply = matrixMultiply;

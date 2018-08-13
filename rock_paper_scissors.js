@@ -26,3 +26,5 @@ var rockPaperScissors = function rockPaperScissors(throw1, throw2) {
 console.log(rockPaperScissors('rock', 'scissors'));
 console.log(rockPaperScissors('rock', 'paper'));
 console.log(rockPaperScissors('paper', 'paper'));
+
+exports.rockPaperScissors = rockPaperScissors;

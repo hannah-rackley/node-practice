@@ -33,3 +33,5 @@ var cipher = function (str, offset) {
     return finalString;
 }
 console.log(cipher('Genius without education is like silver in the mine', 13));
+
+exports.cipher = cipher;

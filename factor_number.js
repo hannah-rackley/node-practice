@@ -10,3 +10,5 @@ var factors = function (num) {
 }
 
 console.log(factors(10));
+
+exports.factors = factors;

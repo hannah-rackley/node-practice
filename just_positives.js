@@ -10,3 +10,5 @@ var positiveNumbers = function positiveNumbers(numbers) {
 }
 console.log(positiveNumbers([2, 5, 6]));
 console.log(positiveNumbers([-2, 0, 4, 6, 10]));
+
+exports.positiveNumbers = positiveNumbers;

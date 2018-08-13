@@ -17,3 +17,5 @@ var leetspeak = function (string) {
 
 }
 console.log(leetspeak("HeLLo ThErE"));
+
+exports.leetspeak = leetspeak;
