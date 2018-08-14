@@ -10,6 +10,7 @@ var getDomain = function(domain){
         }
     })
 };
+
 var rl  = readline.createInterface({
     input: process.stdin,
     output: process.stdout
