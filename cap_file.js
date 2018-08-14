@@ -11,7 +11,7 @@ var capFile = function(filename) {
     })
 }
 
-var rl  = readline.createInterface({
+var rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
