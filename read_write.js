@@ -3,9 +3,7 @@ var readline = require('readline');
 
 var writeFromFile = function(inputFile, outputFile) {
     fs.readFile(inputFile, 'utf8', function(err, contents) {
-        if (err) {
-            console.log(err);
-        } else {
+        if (!err) {
             fs.writeFile(outputFile, contents, 'utf8', function(err) {
                 if (!err) {
                     console.log(`Wrote to file ${outputFile}`)
@@ -13,6 +11,8 @@ var writeFromFile = function(inputFile, outputFile) {
                     console.log(err);
                 }
             })
+        } else {
+            console.log(err);
         }
     })
 }

@@ -3,10 +3,10 @@ var dns = require('dns');
 
 var getDomain = function(domain){
     dns.lookup(domain, function(err, address) {
-        if (err) {
-            console.log(err);
-        } else {
+        if (!err) {
             console.log(`IP Address: ${address}`);
+        } else {
+            console.log(err);
         }
     })
 };

@@ -2,11 +2,11 @@ var fs = require('fs');
 var readline = require('readline');
 
 var capFile = function(filename) {
-    fs.readFile(filename, function(err, contents) {
-        if (err) {
-            console.log(err);
+    fs.readFile(filename, 'utf8', function(err, contents) {
+        if (!err) {
+            console.log(contents.toUpperCase());
         } else {
-            console.log(contents.toString().toUpperCase());
+            console.log(err);
         }
     })
 }
